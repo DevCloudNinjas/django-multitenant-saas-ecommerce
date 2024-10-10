@@ -1,11 +1,11 @@
 # Django-multitenant-saas-ecommerce-project
 ## Automating Django , Celery , Redis and postgres deployment to AWS EC2 using Terraform ( Complete Guide)
 
-![image](https://github.com/joelwembo/django-multitenant-saas-ecommerce-kubernetes/assets/19718580/f52b4f26-b42f-4f16-81fc-3aac8cc62f82)
+![image](https://github.com/devcloudninjas/django-multitenant-saas-ecommerce-kubernetes/assets/19718580/f52b4f26-b42f-4f16-81fc-3aac8cc62f82)
 
-- [@Joel O. Wembo](https://www.joelotepawembo.com)
-- [@twitter](twitter.com/joelwembo1)
-- [@linkedin](https://www.linkedin.com/in/joelotepawembo)
+- [@DevCloud Ninjas](https://www.devcloudninjas.com)
+- [@X](twitter.com/devcloudninjas)
+- [@Linkedin](https://www.linkedin.com/company/devcloudninjas)
 
 
 
@@ -36,7 +36,7 @@ Before we get into the good stuffs, first we need to make sure we have the requi
 - Intermediate knowledge in Serverless Computing ( Ex : AWS Lambda , ECS,..)
 
 You can follow along with this source code:
-GitHub - joelwembo/django-multitenant-saas-ecommerce-kubernetes: Django Multi-tenant …
+GitHub - devcloudninjas/django-multitenant-saas-ecommerce-kubernetes: Django Multi-tenant …
 Django Multi-tenant , microservices , Kubernetes, Jenkins, Github Actions and Multiple Databases using docker, bash…
 github.com
 
@@ -62,19 +62,22 @@ source ./venv/bin/deactivate ( To Deactivate )
 mkdir app
 ```
 ## Step 4: Install Django
-
+```
 pip install django
+```
 ## Step 5: Create a new Django project inside the project folder
 
 A Django app is a self-contained component of a Django project. It is a module that provides specific functionality, such as handling authentication, managing blog posts, or serving an API. An app should represent a single, specific functionality or purpose within the overall website.
-
+```
 django-admin startproject django-multitenant-saas-ecommerce-kubernetes
+```
 ## Step 6: Create a new test app:
 
 within the django project using the following command:
 ```
 python manage.py startapp testapp
 ```
+
 ***Adding a new app into the project***
 ```
 python manage.py startapp home apps/home
@@ -83,8 +86,6 @@ python manage.py startapp home apps/home
 ## Step 7 : Execute ORM Data Migrations:
 ```
 python manage.py makemigrations
-```
-```
 python manage.py migrate
 ```
 
@@ -118,7 +119,7 @@ http://127.0.0.1:8585/swagger/
 # Data Browser
 
 http://127.0.0.1:8585/data-browser/
-![image](https://github.com/joelwembo/django-restful-api-postgres-kubernetes-poc/assets/19718580/83a0f788-36ea-4bb1-a626-17c2154bd512)
+![image](https://github.com/devcloudninjas/django-restful-api-postgres-kubernetes-poc/assets/19718580/83a0f788-36ea-4bb1-a626-17c2154bd512)
 
 
 # GraphQL
@@ -172,9 +173,9 @@ Thank you for Reading !! 🙌🏻, see you in the next article.🤘
 
 # For more information about the author visit
 
-- [@Joel O. Wembo](https://www.joelotepawembo.com)
-- [@twitter](twitter.com/joelwembo1)
-- [@linkedin](https://www.linkedin.com/in/joelotepawembo)
+- [@DevCloud Ninjas](https://www.devcloudninjas.com)
+- [@X](twitter.com/devcloudninjas)
+- [@Linkedin](https://www.linkedin.com/company/devcloudninjas)
 
 
 
