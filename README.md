@@ -119,7 +119,7 @@ http://127.0.0.1:8585/swagger/
 # Data Browser
 
 http://127.0.0.1:8585/data-browser/
-![image](https://github.com/devcloudninjas/django-restful-api-postgres-kubernetes-poc/assets/19718580/83a0f788-36ea-4bb1-a626-17c2154bd512)
+![image](https://raw.githubusercontent.com/DevCloudNinjas/django-multitenant-saas-ecommerce/main/media/Screenshot2.png)
 
 
 # GraphQL
