@@ -1,7 +1,7 @@
 # Django-multitenant-saas-ecommerce-project
 ## Automating Django , Celery , Redis and postgres deployment to AWS EC2 using Terraform ( Complete Guide)
 
-![image](https://github.com/devcloudninjas/django-multitenant-saas-ecommerce/media/Screenshot.png)
+![image](https://github.com/devcloudninjasdjango-multitenant-saas-ecommerce/blob/main/media/Screenshot.png)
 
 - [@DevCloud Ninjas](https://www.devcloudninjas.com)
 - [@X](twitter.com/devcloudninjas)
